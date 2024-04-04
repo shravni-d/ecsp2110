@@ -1,5 +1,5 @@
 body {
-    background: #8C52FF;
+    background: #FF69B4; /* Pink background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 #weather-container {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 192, 203, 0.3); /* Light pink background */
     max-width: 400px;
     padding: 20px;
     border-radius: 15px;
@@ -20,7 +20,7 @@ body {
 }
 
 h2, label, p {
-    color: #fff;
+    color: #fff; /* White text */
     margin: 8px 0;
 }
 
@@ -34,7 +34,7 @@ input {
 }
 
 button {
-    background: #debff4;
+    background: #FFB6C1; /* Pink background */
     color: white;
     padding: 10px;
     border: none;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background: #8b48d7;
+    background: #FF1493; /* Darker pink background on hover */
 }
 
 #temp-div p {
@@ -91,6 +91,9 @@ button:hover {
 }
 
 #hourly-heading {
-    color: #fff;
+    color: #fff; /* White text */
     margin-top: 10px;
 }
+
+
+
