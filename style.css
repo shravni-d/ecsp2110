@@ -9,7 +9,7 @@ body {
 }
 
 #weather-container {
-    background: rgba(255, 218, 235, 0.5); /* Lighter pink background with transparency */
+    background: rgba(221, 160, 221, 0.5); /* Lighter purple background with transparency */
     max-width: 400px;
     padding: 20px;
     border-radius: 15px;
@@ -20,7 +20,7 @@ body {
 }
 
 h2, label, p, #hourly-heading {
-    color: #333; /* Dark gray text for readability */
+    color: #9370DB; /* Medium purple text for readability */
     margin: 8px 0;
 }
 
@@ -29,13 +29,13 @@ input {
     padding: 8px;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 1px solid #999; /* Light gray border */
+    border: 1px solid #FFB6C1; /* Light pink border */
     margin-top: 20px;
 }
 
 button {
     background: #FFD1DC; /* Light pink background */
-    color: #333; /* Dark gray text */
+    color: #9370DB; /* Medium purple text */
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -81,7 +81,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
-    color: #333; /* Dark gray text */
+    color: #9370DB; /* Medium purple text */
 }
 
 .hourly-item img {
